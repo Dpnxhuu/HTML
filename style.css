@@ -1,0 +1,49 @@
+h1 {
+    color: red;
+}
+
+h2 {
+    color: green;
+}
+
+.table1 {
+    background: greenyellow;
+}
+
+#specialtable, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    vertical-align: bottom;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: greenyellow;
+    color: black;
+}
+
+#specialtable, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    vertical-align: center;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    background: greenyellow;
+    color: black;
+}
+
+#specialtable, td{
+    background-color: white;
+}
+
+
+    #container {
+        text-align: center;
+    }
+
+    #container ul {
+        display: inline-block;
+        text-align: left; /* Aligns the text within the list items */
+    }

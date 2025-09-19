@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Registration Form</title>
+</head>
+<body>
+
+       <!-- Mini Project using HTML -->
+
+        <h1>University Registration Form</h1>
+        <p>Please fill out the form below to register.</p>
+        <hr>
+
+    <form>
+        <h2>Personal Details</h2>
+
+        <label for="name">First Name:</label>
+        <input type="text" name="UserName" id="name" placeholder="e.g., Deepanshu">
+
+        <br><br>
+
+        <label for="last name">Last Name:</label>
+        <input type="text" name="last name" id="last name" placeholder="e.g., Kumar">
+
+        <br><br>
+
+        <label for="DOB">Date of Birth:</label>
+        <input type="date" name="DOB" id="DOB">
+
+        <br><br>
+
+        <label for="Gender">Gender:</label>
+        
+        <br>
+
+        <input type="radio" name="Gender" id="Male" value="Male">
+        <label for="Male">Male</label>
+
+        <br>
+
+        <input type="radio" name="Gender" id="Female" value="Female">
+        <label for="Female">Female</label>
+
+        <br>
+
+        <input type="radio" name="Gender" id="other" value="other">
+        <label for="other">Other</label>
+
+        <br><br>
+
+        <label>Upload your photo:</label>
+        <br>
+        <input type="file" name="photo">
+
+        <br><br>
+        <hr>
+
+        <h2>Contact Information</h2>
+        
+        <label for="email">Enter Address:</label>
+        <input type="email" name="email" id="email" placeholder="you@gmail.com">
+
+        <br><br>
+
+        <label for="Phone Number">Phone Number:</label>
+        <input type="number" name="contact" id="Phone Number" placeholder="e.g., 0987654321">
+
+        <br><br>
+
+        <label>Mailling Address:</label>
+        <br>
+        <textarea name="Address" cols="20" rows="6" placeholder="Street Address, City, State ZIP code"></textarea>
+
+        <br><br>
+        <hr>
+
+        <h2>Academic Information</h2>
+
+        <label for="Course">Select Your Course:</label>
+        <br>
+        <select name="Course" id="Course">
+            <option value="FSD">Full Stack Development with AI</option>
+            <option value="Content Creation">Content Creation</option>
+            <option value="Aura Farming">Aura Farming</option>
+        </select>
+        
+        <br><br>
+
+        <label>Extracurricular Interests:</label>
+
+        <br>
+
+        <input type="checkbox" name="interest" id="sport" value="sport">
+        <label for="sport">Sport</label>
+
+        <br>
+
+        <input type="checkbox" name="interest" id="Music and Arts" value="Music and Arts">
+        <label for="Music and Arts">Music and Arts</label>
+
+        <br>
+
+        <input type="checkbox" name="interest" id="Technology" value="Technology Clubs">
+        <label for="Technology">Technology Clubs</label>
+
+        <br>
+
+        <input type="checkbox" name="interest" id="volunteering" value="volunteering">
+        <label for="volunteering">Valunteering</label>
+
+        <br><br>
+        <hr>
+
+        <h2>Create Your Acount</h2>
+
+        <label for="Password">Create Password:</label>
+
+        <input type="password" name="pass" id="Password">
+        
+        <br><br>
+
+        <label for="security questiong">Security Questiong:</label>
+        <select name="security questiong" id="security questiong">
+            <option value="What was your first pet name?">What was your first pet name?</option>
+            <option value="What is your best friend name?">What is your best friend name?</option>
+            <option value="What is your girlfriend name?">What is your girlfriend name?</option>
+        </select>
+        
+        <br><br>
+
+        <label for="answer">Security Answer:</label>
+        <input type="text" name="Answer" id="answer">
+
+        <br><br>
+
+        <input type="checkbox" name="T&C" id="Terms and conditions" value="Agreed">
+        <label for="Terms and conditions">I agree to the terms and conditions.</label>
+
+        <br><br>
+        <hr>
+
+        <button type="submit">register</button>
+        <button type="reset">Clear form</button>
+
+    </form>
+
+</body>
+</html>
